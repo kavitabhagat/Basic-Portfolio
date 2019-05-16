@@ -1,0 +1,106 @@
+body{
+    background: rgb(204, 202, 202);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey
+}
+footer{
+    position: absolute;
+    background: gray;
+    color: white;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding-top: 40px;
+}
+.head-box{
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: auto;
+    background: white;
+}
+.name-box{
+    background: teal;
+    width: 250px;
+    margin-left: 250px;
+    padding: 5px;
+}
+/*
+.menu-box{
+    background: red;
+    position: absolute; 
+    right: 10px;
+    width: 100px;
+} */
+.aboutMe-box{
+    /* box-sizing: border-box; */
+    background: white;
+    position: absolute;
+    /* margin-left: 300px; */
+    margin: 120px auto;
+    width: 800px;
+    left: 250px;
+    
+
+    /* clear: both */
+    /* margin-top: 40px; */
+}
+
+h2{
+    position: relative;
+    color: teal;
+    text-align: left;
+    margin-left: 20px;
+    /* left: auto;
+    top : 0px; */
+}
+h1{
+    color: white
+}
+img{
+    float: left;
+}
+ul{
+    list-style: none;
+    display: inline;
+}
+li{
+    /* float: left; */
+    /* position: relative; */
+    /* left: 300px; */
+    padding: 10px;
+    border-right: 1px solid black;
+}
+li:last-child{
+    border-right: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    margin-left:20px; 
+}
+/*
+.box1{
+    box-sizing: border-box;
+    position: relative;
+    width: 200px;
+    background: cadetblue;
+} */
+/*
+.main{
+    box-sizing : border-box;
+    margin: auto;
+}
+img{
+    float: left;
+}*/
+/* #head{
+    box-sizing: border-box;
+    position: fixed;
+    width: 800px;
+    margin: 0 auto;
+} */ 
