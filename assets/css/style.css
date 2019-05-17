@@ -4,16 +4,17 @@ body{
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     color: 777777
+    
 }
 footer{
-    position: absolute;
-    background: gray;
+    position: fixed;
+    background:#666666;
     color: white;
     bottom: 0px;
     right: 0px;
     left: 0px;
     padding-top: 40px;
-    border-top: 5px solid teal
+    border-top: 8px solid #4aaaa5;
 }
 .head-box{
     box-sizing: border-box;
@@ -22,7 +23,8 @@ footer{
     right: 0px;
     left: 0px;
     bottom: auto;
-    background: whitesmoke;
+    background: #ffffff;
+    border:   #cccccc;
 }
 .name-box{
     background: teal;
@@ -32,7 +34,7 @@ footer{
 }
 
 .menu-box{
-    background: whitesmoke;
+    background:#ffffff;
     position: absolute; 
     width: 300px;
     top: 10px;
@@ -41,21 +43,24 @@ footer{
     padding: 10px
 }
 .aboutMe-box{
-    background: whitesmoke;
+    background:#ffffff;
     position: fixed;
     margin: 100px auto;
-    width: 900px;
+    width: 960px;
     left: 200px;
+    border:  #dddddd;
 }
 
 h2{
     position: relative;
-    color: teal;
+    color:teal;
     text-align: left;
     margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1{
-    color: white
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 img{
     margin:10px; 
@@ -65,13 +70,15 @@ p{
     margin: 10px 10px; 
     text-align: left;
     font-size: 15px;
+    color: #777777;
 }
 ul{
     list-style: none;
 }
 li{
     display: inline;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-right: 1px solid black;
 }
 li:last-child{
@@ -80,9 +87,26 @@ li:last-child{
 a{
     text-decoration: none;
 }
-img{
-    margin-left:20px; 
+a:hover{
+    color: red;
 }
-h1, h2{
-    sfont-family: 'Georgia', Times, Times New Roman, serif;
+img{
+    margin-left:20px;
+    width: 150px;
+    height: 150px;
+    max-zoom: 100%
+}
+form{
+    line-height: 30px;
+    margin-left: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+button{
+    background: teal;
+    color: white;
+    line-height: 20px;
+}
+button:hover{
+    background: Blue;
 }
